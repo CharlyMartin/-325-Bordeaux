@@ -1,0 +1,23 @@
+h1 {
+
+}
+
+h1 #main-title {
+
+}
+
+div > div > span > p {
+  color: red;
+}
+
+/* div p {
+  color: blue;
+} */
+
+.container.card {
+  background: red;
+}
+
+.container .card {
+  background: blue;
+}

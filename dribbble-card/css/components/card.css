@@ -1,0 +1,46 @@
+.card {
+  width: 300px;
+}
+
+.card-infos {
+  background-color: white;
+  padding: 15px;
+}
+
+.card-image {
+  /* background-image: url("https://source.unsplash.com/random"); */
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  padding: 15px 5px;
+}
+
+.card-button {
+  background-color: white;
+  border-radius: 4px;
+  padding: 8px 16px;
+  opacity: 0;
+  transition: opacity 300ms ease;
+}
+
+.card-image:hover > .card-button {
+  opacity: 1;
+}
+
+.card-user {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.card-user a {
+  padding-left: 10px;
+}
+
+.card-list {
+  padding-top: 15px;
+}
+
+.card-list i {
+  color: rgb(180, 180, 180)
+}
