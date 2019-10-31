@@ -1,0 +1,18 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 0;
+}
+
+.banner-content {
+  width: 50%;
+}
+
+.banner-content h1 {
+  margin-bottom: 30px;
+}
+
+.banner .btn-green {
+  margin-top: 20px
+}

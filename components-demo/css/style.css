@@ -3,19 +3,39 @@
 
 /* --- Components design --- */
 @import url("components/container.css");
-/* TODO: import new components */
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
 
 /* --- Fonts & colors --- */
 body {
   font-family: "Open Sans", "Helvetica", "sans-serif";
   padding-bottom: 200px;
   margin: 0;
-  background-color: rgb(240,240,240);
+  background-color: rgb(245,245,245);
+  color: rgb(80,80,80);
 }
 h1, h2, h3 {
   font-family: "Poppins", "sans-serif";
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .text-center {
   text-align: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
