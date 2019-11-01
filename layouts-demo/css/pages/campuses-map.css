@@ -1,0 +1,18 @@
+.flex-layout {
+  display: flex;
+  align-items: flex-start;
+}
+
+.flex-layout .cards {
+  flex-grow: 1;
+  padding: 16px;
+  /* Adapt the grid to the new layout, to make room for the map */
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.flex-layout #map {
+  height: 100vh;
+  flex-basis: 450px;
+  position: sticky;
+  top: 0;
+}
